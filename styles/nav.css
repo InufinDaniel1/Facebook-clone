@@ -1,0 +1,79 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  background-color: #fff;
+  padding: 0 10px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--color1);
+}
+
+.p2{
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.s2-btn{
+  background-color: var(--color2);
+  padding: 5px;
+  border-radius: 80%;
+}
+.s2-btn img{
+  width: 25px;
+}
+
+.nav-btn{
+  width: 25px;
+}
+
+.nav-bar{
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50px;
+  z-index: 100;
+}
+
+.home, .friend, .messenger, .notification{
+  position: relative;
+}
+
+.home span, .friend span, .notification span{
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px;
+  color: #fff;
+  background-color: red;
+  border-radius: 20px;
+  position: absolute;
+  top: -2px;
+  left: 12px;
+}
+
+.messenger span{
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 6px;
+  color: #fff;
+  background-color: red;
+  border-radius: 20px;
+  position: absolute;
+  top: -2px;
+  left: 15px;
+}
